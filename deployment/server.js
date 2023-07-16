@@ -17,7 +17,7 @@ app.get('/', (req, res) =>{
 
 //listen
 
-app.listen(3000, function() { 
+app.listen(PORT, function() { 
     console.log(`Server is running! http://localhost:${PORT}`)
 })
 
